@@ -51,7 +51,7 @@ gem 'time_difference'
 gem 'mongo_session_store-rails4'
 
 group :development, :test do
-  gem 'pry-byebug'
+  gem 'pry-byebug', '3.7.0'
   gem 'guard-livereload'
   gem "teaspoon-jasmine"
   gem "magic_lamp"
@@ -60,6 +60,6 @@ end
 group :test do
   gem 'minitest'
   gem 'minitest-reporters'
-  gem 'simplecov', require: false
+  gem 'simplecov', '0.17.1', require: false
   gem 'webmock'
 end
